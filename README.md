@@ -1,6 +1,6 @@
 # go-redispool
 
-###使用方法
+使用方法——
 在需要使用连接池的文件的init函数中调用Init函数
 
 ````
@@ -31,4 +31,4 @@ func GetMessageId() uint64 {
 
 	return id
 }
-``
+````
